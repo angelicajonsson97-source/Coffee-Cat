@@ -11,14 +11,16 @@ export default function App() {
 
   return (
     <div className="app">
+      <nav className="nav">
     <BrowserRouter>
       <Header />
       <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/Coffee-Cat" element={<Home />} />
       <Route path="/Cat" element={<Cat />} />
       <Route path="/Coffee" element={<Coffee />} />
     </Routes>
     </BrowserRouter>
+    </nav>
     </div>
   );
 }

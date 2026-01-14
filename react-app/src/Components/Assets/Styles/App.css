@@ -19,13 +19,16 @@ main {
   padding: 24px 32px;
   text-align: center;
 }
-h1 {
-  color: #1e2f26;
-  align-items: center;
-  text-align: center;
-    margin-top: 10;
-    font-size: 24px;
-    font-weight: 500;
+
+.nav a {
+  color: #f0dec9df;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold; 
+}
+
+.nav a.active {
+  color: #d3540068;
 }
 .click-box {
   display: flex;
