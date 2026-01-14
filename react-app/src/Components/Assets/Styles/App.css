@@ -1,0 +1,47 @@
+/* GLOBALA STILAR */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* APP WRAPPER */
+.app {
+  min-height: 100vh;
+}
+
+/* MAIN CONTENT */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  text-align: center;
+}
+h1 {
+  color: #1e2f26;
+  align-items: center;
+  text-align: center;
+    margin-top: 10;
+    font-size: 24px;
+    font-weight: 500;
+}
+.click-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+    gap: 12px;
+    background-color: rgb(23, 98, 60);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+}
+.click-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}

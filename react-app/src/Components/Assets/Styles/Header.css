@@ -1,0 +1,59 @@
+/* Header.css */
+.header {
+  background-color: #1e2f26;
+  color: white;
+  padding: 10px 0;
+}
+
+/* Maxbredd + centrerad layout */
+.header-top {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Centrerad titel under */
+.header-title {
+  text-align: center;
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.header-title h1 {
+  font-size: 32px;
+  margin: 0;
+  color: #ffffff;
+}
+
+
+/* LOGO */
+
+.logo {
+  width: 120px;
+  height: auto;
+}
+
+
+/* MENY */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
