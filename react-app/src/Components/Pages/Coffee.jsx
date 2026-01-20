@@ -7,7 +7,7 @@ import latte from "../Assets/Images/Coimgees/Latte.svg";
 import cappucino from "../Assets/Images/Coimgees/⁮Cappucino.svg";
 import flatwhite from "../Assets/Images/Coimgees/Flatwhite.svg";
 import espresso from "../Assets/Images/Coimgees/Espresso.svg";
-import catImage from "../Assets/Images/cat-peaking.svg";
+import catImage from "../Assets/Images/catside.png";
 
 
 export default function Coffee() {
